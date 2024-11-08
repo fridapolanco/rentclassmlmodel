@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 # Loading the trained model
-with open('C:\\Users\\frida\\Desktop\\IE\\Machine Learning 1& 2\\ML2 Streamlit\\ASSIGNMENTS\\Assignment 1 FNPD\\model.joblib', 'rb') as pickle_in:
+with open('model.joblib', 'rb') as pickle_in:
     gbc = joblib.load(pickle_in)
 
 #page configuration
